@@ -1,0 +1,12 @@
+What are Bloom Fillters?;Bloom filters are space-efficient probabilistic data structures.
+What can a Bloom Filter say about a given element; either probably in the set, or definitely not
+What operations can be performed on a Bloom Filter, complexities?;add element O(n), query element O(n), notice you can't remove an element
+What is the drawback of a Bloom Filter;The more items added the larger the chance of a false negative
+When is a good situation to use a Bloom Filter?;Bloom filters are good to use if the source data is impractically large
+What is a good example use case of a Bloom Filter?;A good example of a use case for a bloom filter may be a spell checker
+What advantages to Bloom filters have over other Data Structures?;Bloom filters have huge space advantages over other set datastructures
+Equation to measure false positives of bloom filters;e = (1-(1-(1/m))^kn)^k
+Equation for optimal number of hash functions, bloom filter; k = (m/n) * ln(2)
+Equation for false positive rate of bloom filters; m = (nln(e))/((ln2)^2)
+Equation for approximation of elements in a bloom filter; n = - m/k * ln(1 - X/m) (X is number of bits set to 1)
+What properties are desirable in a bloom filter hash function; to be fast, for the output to be uniform
