@@ -1,0 +1,5 @@
+What is a Circular Buffer; A Circular Buffer is a data structure which uses a single fixed sized buffer as if it were connected end to end.
+What are Circular Buffers often used for?;This structure lends itself to buffering data streams
+What is a useful property of a Circular Buffer?;The useful property of a circular buffer is that it does not need to have its elements shuffled around when one is consumed.
+When is a good time to implement a Circular Buffer?;Circular buffering makes a good implementation strategy for a queue that has fixed maximum size.
+How many pointers/variables does it take to implement a circular buffer?; 4! memory pointer start, memory pointer end, start of valid data, end of valid data
